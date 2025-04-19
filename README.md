@@ -17,9 +17,7 @@
 
 ## 📑 Формат команды
 
-```bash
-python3 main.py путь/к/логам/*.log --report handlers
-```
+
 
 Пример:
 
@@ -56,8 +54,9 @@ HANDLER                DEBUG   INFO    WARNING ERROR   CRITICAL
 2. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourname/django-log-analyzer.git
-cd django-log-analyzer
+git clone https://github.com/SyntaxbuGG/django-log-analyzer.git .
+cd log_cli_django
+
 ```
 
 3. Запустите анализ:
@@ -116,30 +115,12 @@ REPORTS = {
 }
 ```
 
----
-
-## ✅ Проверки и стиль
-
-- Типизация: `mypy .`
-- Стиль: `flake8 .`
-- Форматирование: `black .`
-
----
 
 ## 📎 Зависимости
 
-- Только стандартная библиотека Python (`argparse`, `concurrent.futures`, `re` и т.д.)
+- Только стандартная библиотека Python (`argparse`, `concurrent.futures`, `re` и pytest)
 
----
 
-## 📌 TODO
-
-- [x] handlers-отчёт
-- [ ] отчёт по самым частым ошибкам
-- [ ] экспорт в CSV/JSON
-- [ ] web-интерфейс
-
----
 
 ## 👨‍💻 Автор
 
