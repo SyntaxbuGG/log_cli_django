@@ -1,7 +1,3 @@
-Конечно! Вот пример `README.md` для твоего CLI-приложения анализа логов Django:
-
----
-
 ```markdown
 # Django Log Analyzer CLI
 
