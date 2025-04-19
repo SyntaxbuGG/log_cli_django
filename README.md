@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 ```markdown
 # Django Log Analyzer CLI
 
